@@ -1,6 +1,5 @@
 const fs = require('fs')
 const csv = require('csv-parser')
-
 var result = []
 
 fs.createReadStream('./data/transactions.csv')
